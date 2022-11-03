@@ -1,0 +1,22 @@
+/* algunas proiedades  customizadas  de mis elementos  */
+
+
+#honolulu{
+    height: 450px;
+    width: 800px ;
+}
+.banner {
+    filteR:brightness(60%)
+     }
+
+
+#custombtn { background: #96c935; border-color: #96c935;}
+.colorfooter{ background: #46698d;} 
+
+
+/*li{color:whitesmoke}*/
+#color-ticket  { color: #96c935;
+}
+  
+   
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> FORMULARIO </title>
+        <meta name="description" content=" html">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <link rel="stylesheet" href="./TPboots.css">
+       <style>
+        #custombtn { background: #96c935; border-color: #96c935;}
+        #colorticket {  color: #96c935; }
+         /* stylos de los link del nav bar */ 
+        a.nav-link { color:grey}
+        /* stylos de boton de pago */
+     
+     </style>
+    
+       
+         
+    </head>
+    <body>
+
+        <!-- HEADER-->
+        <header class="d-flex flex-wrap justify-content-start p-3 text-bg-dark ">
+            <nav href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                <img src="./imagenes_integrador_front (1)/codoacodo.png" alt="icono logo" height="50px">
+                <nav class="fs-4 ">Conf Bs As</nav> </nav>
+          
+          <ul class=" nav ">
+                <li class="nav-item p-3"> 
+                    <a class="fw-bold   nav-link"  > La conferencia  </a></li>
+                <li class="nav-item p-3 ">
+                    <a class="nav-link"> Los oradores </a></li>
+                <li class="nav-item p-3">
+                    <a class="nav-link "> El lugar y la fecha  </a> </li>
+                <li class="nav-item p-3 " >
+                    <a class="nav-link" > Conviertete en orador  </a></li>
+                <li  class="nav-item p-3" ></li>
+                <a class="nav-link"   id="color-ticket"> Comprar Tickets  </a></li>
+            </ul> 
+    
+        </header>
+    
+                <!-- FORMULARIO titulos centrados-->
+    
+                <div class="mb-3"> <!-- conitainer titulos centrados-->
+                    <div>
+                    <h6 class="text-center fs-6 pt-3 lead m-0 "> CONVIERTETE EN UN  </h6>
+                    <h3 class="text-center fs-1 pb-3 m-0" > ORADOR </h3>  
+                    <h6 class="text-center fs-6 pt-0  lead fw-normal m-0 mb-4"> Anotate como orador para dar una <span class="text-decoration-underline "> charla ignite.</span> Cuentanos de que quieres hablar  </h6>
+                    </div>
+                    
+                 
+                <!-- FORMULARIO -->      
+                <div class="container-fluid row justify-content-center  ">
+                    <div class="col-md-3 col-xl-3" > 
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-3 col-xl-3" > 
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido"> 
+                    </div>
+                    <div class="row p-2"> </div>
+                    <div class="col-md-6 col-xl-6" > 
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo"> </div>
+                     <div class="row p-2"> </div>
+                    <div class="col-md-3 col-xl-3 p-3">
+                        <label class="fs-10 fw-light"> Cantidad</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" Cantidad">    
+                    </div>
+                  
+                    <div class="col-md-3 col-xl-3 p-2">
+                        <label class=" form-label fs-10 fw-light  "> Estudiantes </label>
+                        <input type="email" class="form-select  dropdown-toggle "  data-bs-toggle="dropdown" aria-expanded="false"  id="exampleFormControlInput1" placeholder="Estudiante">
+                     
+                          <!--Dropdown-->
+                          <ul class="dropdown-menu">
+                          <li><button class="dropdown-item" type="button">Action</button></li>
+                          <li><button class="dropdown-item" type="button">Another action</button></li>
+                          <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                      </div>
+                                                      
+                      <!-- <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+                   
+                   <div class="row " ></div>
+                    <div class="col-md-6 col-xl-6" > 
+                        <Textarea class="  form-control mt-3 fs-6 p-3 bg-info bg-opacity-25" id="exampleFormControlTextarea1  "rows="1"   placeholder="Total a Pagar $ "></Textarea>
+                    </div> 
+                    
+
+
+                    <div class="container-fluid row p-2  justify-content-center" >  </div>   
+                    <div class="col-6" > </div>
+                        <button class="  mb4 btn btn-success p-2 mb-3 " id="custombtn"> Borrar </button> 
+                    <div class="col-6" > </div>
+                        <button class="mb4 btn btn-success p-2 mb-3 " id="custombtn"> Resumen </button>
+                    </div> 
+                </div>
+                   
+
+                 
+
+                <!-- Descuentos -->
+            </main>
+        
+        <script src="./bootstrap.bundle.min.js" async defer></script>
+    </body>
+</html>

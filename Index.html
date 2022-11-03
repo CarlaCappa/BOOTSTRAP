@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+<!-- LINK HEAD BOOTSTRAP cdn descargado-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./TPboots.css" > <!-- CSS custumisado-->
+
+<!--*#custombtn { background: #96c935; border-color: #96c935;}
+    .colorfooter{ background: #46698d;} 
+    #colorticket {  color: #96c935; }
+    #customlink { color: grey;
+    }*/
+    /*.superpo {
+        position: absolute;
+        top: 50%;
+        left:50%;  
+     }-->
+<style> 
+/* stylos de los link del nav bar */ 
+a.nav-link { color:grey}
+</style>
+ 
+
+  
+</head>
+<body class=" container-fluid  col-md-12 col-lg-12 m-0 px-0">
+<!-- NAV BAR  -->
+    <header class="d-flex flex-wrap justify-content-start p-3 text-bg-dark ">
+        <nav href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+            <img src="./imagenes_integrador_front (1)/codoacodo.png" alt="icono logo" height="50px">
+            <nav class="fs-4 ">Conf Bs As</nav> </nav>
+      
+      <ul class=" nav ">
+            <li class="nav-item p-3"> 
+                <a class="fw-bold   nav-link"  > La conferencia  </a></li>
+            <li class="nav-item p-3 ">
+                <a class="nav-link"> Los oradores </a></li>
+            <li class="nav-item p-3">
+                <a class="nav-link "> El lugar y la fecha  </a> </li>
+            <li class="nav-item p-3 " >
+                <a class="nav-link" > Conviertete en orador  </a></li>
+            <li  class="nav-item p-3" ></li>
+            <a class="nav-link"   id="color-ticket"> Comprar Tickets  </a></li>
+        </ul> 
+
+    </header>
+
+    <main> 
+    <!-- BANNER -->
+    
+       <!-- <div class="container-fluid px-0" > 
+            <img src="imagenes_integrador_front (1)/hawaii.jpg" alt="BACKGRAUN CAJA" class="img-fluid  banner" > </div>
+          <div class="container-fluid text-end ">
+            <div class="carousel-caption img-fluid text-end"> -->
+
+            <div class="Carousel-inner">
+                <img src="imagenes_integrador_front (1)/hawaii.jpg" alt="BACKGRAUN CAJA" class="img-fluid  banner" > 
+              
+                <div class="carousel item ">
+                    <div class="carousel-caption text-end ">
+                        <h1> Conf Buenos Aires </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem laudantium, deserunt molestias quidem non. Eum cum hic soluta non a. Enim a et perspiciatis reprehenderit vel harum amet autem?</p>
+                        <p><a class="btn btn-outline-light" href="#">Quiero un Orador </a>
+                            <a class="btn btn-success" href="#">Comprar Tickets</a></p>
+                    </div> 
+                </div>
+             </div>
+        
+        
+
+            <!-- SPEAKERS-->
+        <div class="container ">   
+            <H6 class="text-center pt-3 lead m-0 "> conoce a los </H6>
+            <h3 class="text-center pb-3 m-0" > ORADORES </h3>           
+            <!--<div class=" container">-->
+            
+            <div class="container-fluid row justify-content-center gap-4 pb-5 ">
+               <div class="col-md-3 col-xl-3" >                
+                    <div  class="card text-start" > 
+                        <img  src="./imagenes_integrador_front (1)/steve.jpg" class="card-img-top img-fluid" alt="Steve"> <!--en este ejemplo le pone una imagen superior --> 
+                        <div class="card-body" id="cardbody"> <!--cuerpo de la card-->
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">React</span>
+                            <h5 class="card-title">Steve Jobs </h5> 
+                            <p class="card-text lead fs-6" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, deserunt suscipit consectetur quasi dolores, ea labore  blablabalbalablabalablababeatae dolorem sapiente eaque animi ut optio sequi doloremque. Libero doloremque earum quaerat animi.</p> 
+                        
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xl-3 ">  
+                    <div class="card text-start">
+                        <img src="./imagenes_integrador_front (1)/bill.jpg" class="card-img-top" alt="Bill">
+                        <div class="card-body">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">React</span>
+                            <h5 class="card-title">Bill gates</h5>
+                            <p class="card-text fs-6 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero consectetur architecto dolorem excepturi iste nisi deleniti quo praesentium laudantium numquam. Dignissimos neque nostrum repudiandae atque nihil inventore ex error dolore!.</p>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xl-3">  
+                    <div class="card text-sm-start">
+                        <img src="./imagenes_integrador_front (1)/ada.jpeg" class="card-img-top" alt="Ada">
+                        <div class="card-body">
+                            <span class="badge text-bg-secondary">Negocios</span> 
+                            <span class="badge text-bg-danger">Startup</span>
+                            <h5 class="card-title">Ada Lovelace</h5>
+                            <p class="card-text lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero consectetur architecto dolorem excepturi iste nisi deleniti quo praesentium laudantium numquam. Dignissimos neque nostrum repudiandae atque nihil inventore ex error dolore!.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  <!--cierra el div cards gruop-->
+        </div>  <!-- cierra el dic clas container speakers  -->
+
+        <!-- POSTALES  -->
+
+        <div class="container-fluid row m-0 p-0">
+            <div class="container-fluid col-lg p-0 border border-1">
+                 <img src="./imagenes_integrador_front (1)/honolulu.jpg" class="img-fluid" alt=" Honolulu" > 
+            </div>
+            <div class="col-lg text-bg-dark border border-1 ps-3 pt-3"> 
+                <H1  class="fs-3 fw-bold"> Bs As - Octubre  </H1>
+                <p class="fs-6"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium sint, maiores vitae porro molestias ullam iure dolorem. Necessitatibus nostrum quam nesciunt in maiores autem error perferendis rerum? Et, incidunt odit!   </p>
+                <button class="btn btn-outline-light"> Conocer mas </button>
+            </div>
+        </div>
+        
+
+        <!-- FORMULARIO-->
+    
+        <div class="mb-3">
+            <div>
+            <h6 class="text-center fs-6 pt-3 lead m-0 "> CONVIERTETE EN UN  </h6>
+            <h3 class="text-center fs-1 pb-3 m-0" > ORADOR </h3>  
+            <h6 class="text-center fs-6 pt-0  lead fw-normal m-0 mb-4"> Anotate como orador para dar una <span class="text-decoration-underline "> charla ignite.</span> Cuentanos de que quieres hablar  </h6>
+            </div>
+            
+                    
+        <div class="container-fluid row justify-content-center  ">
+            <div class="col-md-3 col-xl-3" > 
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            </div>
+            <div class="col-md-3 col-xl-3" > 
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido"> 
+            </div>
+            <div class="row"> </div>
+            <div class="col-md-6 col-xl-6" > 
+                <Textarea class="form-control mt-4 fs-5" id="exampleFormControlTextarea1"  rows="3" placeholder="Sobre que quieres Hablar?"></Textarea>
+                <Label class="fs-10 fw-light"> Recuerda poner un titulo para tu charla </Label>
+            </div> 
+            <div class=" row  mt-4" > </div>
+                <button class=" col-md-6 col-xl-6 mb4 btn btn-success  mb-3" id="custombtn"> <strong> enviar </button>
+        </div>
+    </main>
+    <!-- FOOTER-->
+    <footer class="d-flex   justify-content-lg-evenly justify-content-md-evenly   align-items-md-baseline align-items-lg-baseline colorfooter text-light">
+       
+        <ul class="nav  px-3 mb-3  mt-3 ">
+            <li class="nav-item px-5">  Preguntas <br> frecuentes  </li>
+            <li class="nav-item px-5"> Contactenos  </li>
+            <li class="nav-item  px-5"> Prensa </li>
+            <li class="nav-item  px-5"> Conerencias</li>
+            <li class="nav-item  px-5"  >  Terminos y <br> condiciones  </li>
+            <li class="nav-item  px-5"  >  Privacidad  </li>
+            <li class="nav-item  px-5"  >  Extudiantes </li>
+        
+    </footer>
+    <!-- SCRIPT JAVA  BOOTSTRAP cdn Download-->
+    <Script src="./bootstrap.bundle.min.js"> </Script>
+  </body>
+</html>
